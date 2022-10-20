@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background: linear-gradient(303deg, rgb(0, 0, 0), rgb(62, 45, 45)) 0% 0% / 200% 200%;
+    animation: 45s ease 0s infinite normal none running CustomAnimation;
     font-family:Georgia, 'Times New Roman', Times, serif ;
    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
@@ -10,7 +11,7 @@ h1{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 3em;
+    font-size: 20px;
     text-decoration: underline;
     
 }
@@ -20,12 +21,8 @@ h2 {
     text-decoration: underline;
 }
 
-.titulo {
-    margin-top: 2em;
-}
-
 .contacto-info {
-    font-size: 22px;
+    font-size: 15px;
     word-wrap: break-word;
     line-height: 35px;
 }
@@ -36,13 +33,10 @@ p {
 }
 
 .logo{
-    
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 30em;
-    height: 22em;
 }
 
 hr {
@@ -57,6 +51,7 @@ hr {
     width: 70%;
     height: fit-content;
     margin: auto;
+    margin-top: 15px;
     border: double;
 }
 
@@ -65,6 +60,11 @@ footer {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    
+}
+
+.footer-text {
+    font-size: 10px;
 }
 
 #map {
