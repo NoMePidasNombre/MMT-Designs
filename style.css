@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -73,4 +77,9 @@ footer {
   
   display: flex; 
   
+}
+
+.link-carpeta {
+    text-decoration: none;
+    color: white;
 }
